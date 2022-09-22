@@ -10,59 +10,134 @@
 
 /* estilo universal */
 
+body {
+	background-color: black;
+}
+
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   list-style-type: none;
-   font-family: "Jim Nightshade", sans-serif;
-   text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+	font-family: "Jim Nightshade", sans-serif;
+	text-decoration: none;
 }
 
 /* header */
 
 header {
-   background-image: url(./assets/img/vida-marina-1909779.webp);
-   background-size: cover;
+	background-image: url(./assets/img/peces-.jpg);
+	background-size: cover;
 
-   /* background: var(--bg-nav); */
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   height: 150px;
-   padding: 0px 60px 0px 40px;
-   position: fixed;
-   top: 0;
+	/* background: var(--bg-nav); */
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 150px;
+	padding: 0px 60px 0px 40px;
+	position: fixed;
+	top: 0;
+	border-radius: 0px 0px 10px 10px;
+	/* border: 2px solid black; */
 }
 
 .logo {
-   height: 100%;
+	height: 100%;
 }
 
 .navbar,
 .navbar-list {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .navbar {
-   gap: 50px;
+	gap: 50px;
 }
 
 .navbar-list {
-   gap: 10px;
+	gap: 10px;
 }
 
 .navbar-list a {
-   color: beige;
-   font-size: 26px;
+	color: beige;
+	font-size: 26px;
 }
 
 .carrito-icon {
-   border: 3px solid beige;
-   width: 60px;
-   padding: 5px 6px 5px 3px;
-   border-radius: 20px;
+	border: 3px solid beige;
+	width: 60px;
+	padding: 5px 6px 5px 3px;
+	border-radius: 20px;
+}
+
+/* * main */
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	color: rgb(190, 189, 189);
+}
+
+/* * Seccion Hero/Portada */
+
+#portada {
+	display: flex;
+	margin-top: 150px;
+	background: radial-gradient(#020d6b, black);
+
+	/* background-image: url(./assets/img/sealife-mural-coral-fauna.webp); */
+	/* background-repeat: repeat; */
+	border-radius: 10px;
+	padding: 75px;
+
+	/* max-width: 1200px; */
+	align-items: center;
+	justify-content: center;
+	text-align: justify;
+}
+
+.info-portada {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	/* color: beige; */
+	font-size: 1.5em;
+	width: 50%;
+}
+.info-portada h1 {
+	width: 70%;
+	min-width: 500;
+}
+/* .info-portada p { */
+/* color: rgb(190, 189, 189); */
+/* } */
+.info-portada p > span {
+	color: beige;
+}
+.img-portada {
+	display: flex;
+	/* background-color: rgb(24, 23, 23); */
+	align-items: center;
+	justify-content: center;
+}
+.img-portada img {
+	display: flex;
+	width: 80%;
+	border-radius: 15px;
+}
+#relleno-portada {
+	display: flex;
+	background: radial-gradient(#020d6b, black);
+	border-radius: 10px;
+	padding: 75px;
+	font-size: 1.5em;
+	align-items: center;
+	justify-content: center;
+	text-align: justify;
 }
