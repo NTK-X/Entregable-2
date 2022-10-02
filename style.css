@@ -63,8 +63,9 @@ header {
 }
 
 .navbar-list a {
-	color: beige;
+	color: rgb(241, 245, 11);
 	font-size: 26px;
+	/* color: rgb(190, 189, 189); */
 }
 
 .carrito-icon {
@@ -89,6 +90,7 @@ main {
 
 #portada {
 	display: flex;
+	flex-direction: column;
 	margin-top: 150px;
 	background: radial-gradient(#020d6b, black);
 
@@ -103,18 +105,27 @@ main {
 	text-align: justify;
 }
 
+#portada h1 {
+	text-align: center;
+	font-size: 3.5em;
+	width: 70%;
+	min-width: 500;
+}
+
+.contenido-portada {
+	display: flex;
+	margin-top: 50px;
+}
+
 .info-portada {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
 	/* color: beige; */
-	font-size: 1.5em;
+	font-size: 2em;
 	width: 50%;
 }
-.info-portada h1 {
-	width: 70%;
-	min-width: 500;
-}
+
 /* .info-portada p { */
 /* color: rgb(190, 189, 189); */
 /* } */
@@ -137,8 +148,156 @@ main {
 	background: radial-gradient(#020d6b, black);
 	border-radius: 10px;
 	padding: 75px;
-	font-size: 1.5em;
+	font-size: 2em;
 	align-items: center;
 	justify-content: center;
 	text-align: justify;
+}
+
+/* *Seccion Beneficio */
+
+
+#experiencias {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: justify;
+	padding: 75px;
+	background: radial-gradient(#020d6b, black);
+	/* max-width: 1200px; */
+}
+
+#experiencias h2 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	/* flex-wrap: wrap; */
+	gap: 30px;
+	/* border: 1px solid green; */
+}
+.card1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* flex-wrap: wrap; */
+	gap: 20px;
+	/* border: 1px solid red; */
+
+	width: 33.33%;
+	font-size: 2em;
+	text-align: justify;
+	background: rgba(20, 110, 91, 0.918);
+	 border-radius: 15px;
+	 height:450px;
+}
+
+.card1 p {
+	width: 60%;
+}
+
+
+.card1 img {
+	width: 60%;
+	padding: 15px;
+}
+
+
+.card2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	font-size: 2em;
+	text-align: justify;
+	width: 33.33%;
+	/* border: 1px solid rgb(6, 250, 59); */
+	background: rgba(20, 110, 91, 0.918);
+	 border-radius: 15px;
+	 height:450px;
+}
+
+.card2 p {
+	width: 90%;
+}
+
+.card2 img {
+	width: 90%;
+	padding: 10px;
+}
+
+.card3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	font-size: 2em;
+	text-align: justify;
+	width: 33.33%;
+	/* border: 1px solid rgb(250, 6, 250); */
+	background: rgba(20, 110, 91, 0.918);
+	 border-radius: 15px;
+	 height: 450px;
+	 
+}
+
+.card3 p {
+	width: 60%;
+}
+.card3 img {
+	width: 60%;
+	padding: 15px;
+}
+
+/* *Seccion de Contacto */
+
+#contact{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 80px;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	font-size: 2em;
+	background: rgb(2, 16, 20);
+	border-radius: 15px;
+	color: rgb(198, 201, 38);
+	/* border: 1px solid greenyellow; */
+
+}
+
+.contact-info {
+	/* border: 1px solid rebeccapurple; */
+	display: flex;
+	width: 100%;
+	padding: 30px;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	background: radial-gradient(#020d6b, black);
+	border-radius: 15px;
+}
+.contact-info a {
+	color: rgb(42, 252, 0);
+}
+footer{
+	color: rgb(198, 201, 38);
+	justify-content: center;
+	align-items: baseline;
+	text-align: center;
+
+}
+
+footer img {
+	width: 0.8%;
+
 }
