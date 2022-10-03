@@ -8,7 +8,7 @@
    --bg-nav: #35b1cb;
 } */
 
-/* estilo universal */
+/* *estilo universal */
 
 body {
 	background-color: black;
@@ -23,7 +23,7 @@ body {
 	text-decoration: none;
 }
 
-/* header */
+/* *header */
 
 header {
 	background-image: url(./assets/img/peces-.jpg);
@@ -39,6 +39,7 @@ header {
 	position: fixed;
 	top: 0;
 	border-radius: 0px 0px 10px 10px;
+	z-index: 1;
 	/* border: 2px solid black; */
 }
 
@@ -52,6 +53,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	width: 80%;
 }
 
 .navbar {
@@ -60,6 +62,16 @@ header {
 
 .navbar-list {
 	gap: 10px;
+}
+
+.navbar i {
+	font-size: 40px;
+	color: rgb(241, 245, 11);
+	display: none;
+}
+
+#toggle-menu {
+	display: none;
 }
 
 .navbar-list a {
@@ -115,6 +127,7 @@ main {
 .contenido-portada {
 	display: flex;
 	margin-top: 50px;
+	border: 1px solid salmon;
 }
 
 .info-portada {
@@ -287,6 +300,9 @@ main {
 .contact-info a {
 	color: rgb(42, 252, 0);
 }
+
+/* *footer */
+
 footer {
 	color: rgb(198, 201, 38);
 	justify-content: center;
