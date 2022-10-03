@@ -191,7 +191,7 @@ main {
 	align-items: flex-start;
 	/* flex-wrap: wrap; */
 	gap: 30px;
-	/* border: 1px solid green; */
+	border: 1px solid green;
 }
 .card1 {
 	display: flex;
@@ -200,7 +200,7 @@ main {
 	align-items: center;
 	/* flex-wrap: wrap; */
 	gap: 20px;
-	/* border: 1px solid red; */
+	border: 1px solid red;
 
 	width: 33.33%;
 	font-size: 2em;
@@ -229,7 +229,7 @@ main {
 	font-size: 2em;
 	text-align: justify;
 	width: 33.33%;
-	/* border: 1px solid rgb(6, 250, 59); */
+	border: 1px solid rgb(6, 250, 59);
 	background: rgba(20, 110, 91, 0.918);
 	border-radius: 15px;
 	height: 500px;
@@ -254,7 +254,7 @@ main {
 	font-size: 2em;
 	text-align: justify;
 	width: 33.33%;
-	/* border: 1px solid rgb(250, 6, 250); */
+	border: 1px solid rgb(250, 6, 250);
 	background: rgba(20, 110, 91, 0.918);
 	border-radius: 15px;
 	height: 500px;
@@ -283,7 +283,7 @@ main {
 	background: rgb(2, 16, 20);
 	border-radius: 15px;
 	color: rgb(198, 201, 38);
-	/* border: 1px solid greenyellow; */
+	border: 1px solid greenyellow;
 }
 
 .contact-info {
@@ -291,11 +291,12 @@ main {
 	display: flex;
 	width: 100%;
 	padding: 30px;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	text-align: center;
 	background: radial-gradient(#020d6b, black);
 	border-radius: 15px;
+	border: 1px solid seagreen;
 }
 .contact-info a {
 	color: rgb(42, 252, 0);
