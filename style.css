@@ -201,7 +201,6 @@ main {
 	/* flex-wrap: wrap; */
 	gap: 20px;
 	/* border: 1px solid red; */
-
 	width: 33.33%;
 	font-size: 2em;
 	text-align: justify;
@@ -233,6 +232,7 @@ main {
 	background: rgba(20, 110, 91, 0.918);
 	border-radius: 15px;
 	height: 500px;
+
 }
 
 .card2 p {
@@ -268,6 +268,20 @@ main {
 	/* padding: 15px; */
 	border-radius: 15px;
 }
+
+.transition:hover {
+	transition-property:all ;
+	background: rgba(3, 32, 39, 0.76);
+	color: lightseagreen;
+	transition-duration: 1.5s;
+	transition-timing-function: ease;
+	}
+
+	.transition {
+		transition-property: all;
+		transition-duration: 1.5s;
+	}
+
 
 /* *Seccion de Contacto */
 
